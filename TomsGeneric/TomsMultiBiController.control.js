@@ -65,24 +65,6 @@ function init() {
    MultiBi15.setShouldConsumeEvents(false);
    MultiBi16.setShouldConsumeEvents(false);
 
-	// Enable Poly AT translation into Timbre for the internl BWS instruments
-	MultiBi.assignPolyphonicAftertouchToExpression(0,   NoteExpression.TIMBRE_UP, 5);
-	MultiBi1.assignPolyphonicAftertouchToExpression(0,   NoteExpression.TIMBRE_UP, 5);
-	MultiBi2.assignPolyphonicAftertouchToExpression(1,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi3.assignPolyphonicAftertouchToExpression(2,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi4.assignPolyphonicAftertouchToExpression(3,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi5.assignPolyphonicAftertouchToExpression(4,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi6.assignPolyphonicAftertouchToExpression(5,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi7.assignPolyphonicAftertouchToExpression(6,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi8.assignPolyphonicAftertouchToExpression(7,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi9.assignPolyphonicAftertouchToExpression(8,   NoteExpression.TIMBRE_UP, 5);
-   MultiBi10.assignPolyphonicAftertouchToExpression(9,  NoteExpression.TIMBRE_UP, 5);
-   MultiBi11.assignPolyphonicAftertouchToExpression(10, NoteExpression.TIMBRE_UP, 5);
-   MultiBi12.assignPolyphonicAftertouchToExpression(11, NoteExpression.TIMBRE_UP, 5);
-   MultiBi13.assignPolyphonicAftertouchToExpression(12, NoteExpression.TIMBRE_UP, 5);
-   MultiBi14.assignPolyphonicAftertouchToExpression(13, NoteExpression.TIMBRE_UP, 5);
-   MultiBi15.assignPolyphonicAftertouchToExpression(14, NoteExpression.TIMBRE_UP, 5);
-   MultiBi16.assignPolyphonicAftertouchToExpression(15, NoteExpression.TIMBRE_UP, 5);
 
 	// Enable Midi Beat Clock. Comment out if you don't want that
 	host.getMidiOutPort(0).setShouldSendMidiBeatClock(true);

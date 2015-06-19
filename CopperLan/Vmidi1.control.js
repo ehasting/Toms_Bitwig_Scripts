@@ -50,23 +50,6 @@ function init() {
    VMidi15.setShouldConsumeEvents(false);
    VMidi16.setShouldConsumeEvents(false);
 
-	VMidi1.assignPolyphonicAftertouchToExpression(0,   NoteExpression.TIMBRE_UP, 0);
-	VMidi2.assignPolyphonicAftertouchToExpression(1,   NoteExpression.TIMBRE_UP, 0);
-   VMidi3.assignPolyphonicAftertouchToExpression(2,   NoteExpression.TIMBRE_UP, 0);
-   VMidi4.assignPolyphonicAftertouchToExpression(3,   NoteExpression.TIMBRE_UP, 0);
-   VMidi5.assignPolyphonicAftertouchToExpression(4,   NoteExpression.TIMBRE_UP, 0);
-   VMidi6.assignPolyphonicAftertouchToExpression(5,   NoteExpression.TIMBRE_UP, 0);
-   VMidi7.assignPolyphonicAftertouchToExpression(6,   NoteExpression.TIMBRE_UP, 0);
-   VMidi8.assignPolyphonicAftertouchToExpression(7,   NoteExpression.TIMBRE_UP, 0);
-   VMidi9.assignPolyphonicAftertouchToExpression(8,   NoteExpression.TIMBRE_UP, 0);
-   VMidi10.assignPolyphonicAftertouchToExpression(9,  NoteExpression.TIMBRE_UP, 0);
-   VMidi11.assignPolyphonicAftertouchToExpression(10, NoteExpression.TIMBRE_UP, 0);
-   VMidi12.assignPolyphonicAftertouchToExpression(11, NoteExpression.TIMBRE_UP, 0);
-   VMidi13.assignPolyphonicAftertouchToExpression(12, NoteExpression.TIMBRE_UP, 0);
-   VMidi14.assignPolyphonicAftertouchToExpression(13, NoteExpression.TIMBRE_UP, 0);
-   VMidi15.assignPolyphonicAftertouchToExpression(14, NoteExpression.TIMBRE_UP, 0);
-   VMidi16.assignPolyphonicAftertouchToExpression(15, NoteExpression.TIMBRE_UP, 0);
-
 	host.getMidiOutPort(0).setShouldSendMidiBeatClock;
 
    host.getMidiInPort(0).setMidiCallback(onMidi);

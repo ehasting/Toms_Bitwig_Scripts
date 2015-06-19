@@ -1,9 +1,11 @@
-// generic Midi Keyboard Script with IN and OUT
+// generic Midi Keyboard Script with one Midi In and Out each
 // Modified from the original by Thomas Helzle
+// Sends Midi Beat Clock
+// Maps CC 1-119 to User Controlls
 
 loadAPI(1);
 
-host.defineController("TomsScripts", "MIDI Keyboard InOut", "1.0", "f60c7450-b5bb-11e3-a5e2-0800200c9a66");
+host.defineController("TomsScripts", "MIDI Keyboard InOut", "1.0", "f60c7450-b5bb-11e3-a5e2-0800200c9a66", "Thomas Helzle");
 host.defineMidiPorts(1, 1);
 
 var LOWEST_CC = 1;
@@ -12,7 +14,6 @@ var HIGHEST_CC = 119;
 function init() {
    Generic = host.getMidiInPort(0).createNoteInput("Keys", "??????");
 	Generic.setShouldConsumeEvents(false);
-	Generic.assignPolyphonicAftertouchToExpression(0, NoteExpression.TIMBRE_UP, 12);
 
  	host.getMidiOutPort(0).setShouldSendMidiBeatClock;
    host.getMidiInPort(0).setMidiCallback(onMidi);

@@ -49,24 +49,6 @@ function init() {
    TomsGeneric15.setShouldConsumeEvents(false);
    TomsGeneric16.setShouldConsumeEvents(false);
 
-	TomsGeneric.assignPolyphonicAftertouchToExpression(0,   NoteExpression.TIMBRE_UP, 5);
-	TomsGeneric1.assignPolyphonicAftertouchToExpression(0,   NoteExpression.TIMBRE_UP, 5);
-	TomsGeneric2.assignPolyphonicAftertouchToExpression(1,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric3.assignPolyphonicAftertouchToExpression(2,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric4.assignPolyphonicAftertouchToExpression(3,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric5.assignPolyphonicAftertouchToExpression(4,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric6.assignPolyphonicAftertouchToExpression(5,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric7.assignPolyphonicAftertouchToExpression(6,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric8.assignPolyphonicAftertouchToExpression(7,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric9.assignPolyphonicAftertouchToExpression(8,   NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric10.assignPolyphonicAftertouchToExpression(9,  NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric11.assignPolyphonicAftertouchToExpression(10, NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric12.assignPolyphonicAftertouchToExpression(11, NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric13.assignPolyphonicAftertouchToExpression(12, NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric14.assignPolyphonicAftertouchToExpression(13, NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric15.assignPolyphonicAftertouchToExpression(14, NoteExpression.TIMBRE_UP, 5);
-   TomsGeneric16.assignPolyphonicAftertouchToExpression(15, NoteExpression.TIMBRE_UP, 5);
-
 	host.getMidiOutPort(0).setShouldSendMidiBeatClock;
    host.getMidiInPort(0).setMidiCallback(onMidi);
 	host.getMidiInPort(0).setSysexCallback(onSysex);

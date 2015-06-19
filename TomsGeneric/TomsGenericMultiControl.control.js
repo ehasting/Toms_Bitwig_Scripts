@@ -50,24 +50,6 @@ function init()
    MultiCon15.setShouldConsumeEvents(false);
    MultiCon16.setShouldConsumeEvents(false);
 
-	MultiCon.assignPolyphonicAftertouchToExpression(0,   NoteExpression.TIMBRE_UP, 5);
-	MultiCon1.assignPolyphonicAftertouchToExpression(0,   NoteExpression.TIMBRE_UP, 5);
-	MultiCon2.assignPolyphonicAftertouchToExpression(1,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon3.assignPolyphonicAftertouchToExpression(2,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon4.assignPolyphonicAftertouchToExpression(3,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon5.assignPolyphonicAftertouchToExpression(4,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon6.assignPolyphonicAftertouchToExpression(5,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon7.assignPolyphonicAftertouchToExpression(6,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon8.assignPolyphonicAftertouchToExpression(7,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon9.assignPolyphonicAftertouchToExpression(8,   NoteExpression.TIMBRE_UP, 5);
-   MultiCon10.assignPolyphonicAftertouchToExpression(9,  NoteExpression.TIMBRE_UP, 5);
-   MultiCon11.assignPolyphonicAftertouchToExpression(10, NoteExpression.TIMBRE_UP, 5);
-   MultiCon12.assignPolyphonicAftertouchToExpression(11, NoteExpression.TIMBRE_UP, 5);
-   MultiCon13.assignPolyphonicAftertouchToExpression(12, NoteExpression.TIMBRE_UP, 5);
-   MultiCon14.assignPolyphonicAftertouchToExpression(13, NoteExpression.TIMBRE_UP, 5);
-   MultiCon15.assignPolyphonicAftertouchToExpression(14, NoteExpression.TIMBRE_UP, 5);
-   MultiCon16.assignPolyphonicAftertouchToExpression(15, NoteExpression.TIMBRE_UP, 5);
-
 	host.getMidiOutPort(0).setShouldSendMidiBeatClock;
    host.getMidiInPort(0).setMidiCallback(onMidi);
 	host.getMidiInPort(0).setSysexCallback(onSysex);
