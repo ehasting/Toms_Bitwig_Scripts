@@ -49,7 +49,7 @@ function init() {
    TomsGeneric15.setShouldConsumeEvents(false);
    TomsGeneric16.setShouldConsumeEvents(false);
 
-	host.getMidiOutPort(0).setShouldSendMidiBeatClock;
+	host.getMidiOutPort(0).setShouldSendMidiBeatClock(true);
    host.getMidiInPort(0).setMidiCallback(onMidi);
 	host.getMidiInPort(0).setSysexCallback(onSysex);
 
