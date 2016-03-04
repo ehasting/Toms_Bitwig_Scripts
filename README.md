@@ -14,6 +14,7 @@ Controller Specific:
 - Akai MPD 18
 - Doepfer LMK 3
 - CopperLan VMidi 1 & 2
+- Eowave TheRibbon
 
 Non-Specific Controllers:
 - Acme Keyboard (Result of my basic Scripting Tutorial here: http://blog.thomashelzle.de/2014/04/bitwig-studio-tutorial-1how-to-create-named-controllers/
