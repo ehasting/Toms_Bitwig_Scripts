@@ -15,7 +15,7 @@ function init() {
    Generic = host.getMidiInPort(0).createNoteInput("Keys", "??????");
 	Generic.setShouldConsumeEvents(false);
 
- 	host.getMidiOutPort(0).setShouldSendMidiBeatClock;
+ 	host.getMidiOutPort(0).setShouldSendMidiBeatClock(true);
    host.getMidiInPort(0).setMidiCallback(onMidi);
 
    // Make CCs 2-119 freely mappable
