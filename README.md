@@ -23,8 +23,8 @@ Non-Specific Controllers:
 - TomsMultiBiController (16 separate Midi Channels, Midi Beat Clock, all CCs mappable per Midi Channel, Bidirectional Feedback for CCs...)
 
 Utility:
-- "The Defaulter", a script that uses the Controller API to allow some basic defaults for projects and views in it's preferences. Also, it saves the current project settings in the IO Panel and restores these per-project.
-Enjoy!
+- "The Defaulter", a script that uses the Controller API to allow some basic defaults for projects and views in it's preferences. Also, it saves the current project settings in the IO Panel and restores these per-project. It's rather buggy due to some problems in the API so better don't use it. 
+BWS 1.2 has templates so this is obsolete.
 
 Cheers,
 
