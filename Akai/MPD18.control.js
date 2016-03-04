@@ -16,9 +16,7 @@ function init() {
    var AKAI = host.getMidiInPort(0).createNoteInput("Pads", "??????");
    host.getMidiInPort(0).setMidiCallback(onMidi);
 	//host.getMidiInPort(0).setSysexCallback(onSysex);
-  	host.getMidiOutPort(0).setShouldSendMidiBeatClock;
-
-
+  	host.getMidiOutPort(0).setShouldSendMidiBeatClock(true);
  	AKAI.setShouldConsumeEvents(false);
 
    // Make CCs 2-119 freely mappable
