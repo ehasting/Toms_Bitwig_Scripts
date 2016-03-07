@@ -1,5 +1,8 @@
-//A short controller script for mapping mpd26 to bitwig.  K1-K6 is mapped to macro1 - macro6
-//on the selected device
+// A short controller script for mapping mpd26 to bitwig.  K1-K6 is mapped to macro1 - macro6
+// Transport controllers is also mapped
+// on the selected device
+// By Egil Hasting 2016
+// Lisence: MIT and BSD
 
 loadAPI(1);
 
